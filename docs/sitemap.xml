@@ -5,31 +5,28 @@
     <loc>https://xeexin.github.io/team1WebPage/authors/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>https://xeexin.github.io/team1WebPage/categories/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/2021/08/01/categories-post/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/docker/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/categories-post/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/docker/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/tags/golang/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/tags/hugo/</loc>
@@ -42,6 +39,9 @@
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/categories/lorem/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/tags/programming/</loc>
@@ -65,55 +65,55 @@
     <loc>https://xeexin.github.io/team1WebPage/authors/jane-doe/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/2015/10/02/linked-post/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/docker/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/linked-post/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/linked-post/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+  </url><url>
     <loc>https://xeexin.github.io/team1WebPage/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/2015/09/17/go-is-for-lovers/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/docker/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/go-is-for-lovers/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/2015/08/03/hugo-is-for-lovers/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/go-is-for-lovers/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/hugo-is-for-lovers/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/2015/06/24/creating-a-new-theme/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/hugo-is-for-lovers/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/docker/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/creating-a-new-theme/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/categories/starting/</loc>
@@ -125,12 +125,12 @@
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/tags/ipsum/</loc>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/blog/1/01/01/migrate-from-jekyll/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/docker/migrate-from-jekyll/</loc>
   </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/container/migrate-from-jekyll/</loc>
-  </url><url>
-    <loc>https://xeexin.github.io/team1WebPage/git/migrate-from-jekyll/</loc>
+    <loc>https://xeexin.github.io/team1WebPage/hugo/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://xeexin.github.io/team1WebPage/linux/migrate-from-jekyll/</loc>
+  </url><url>
+    <loc>https://xeexin.github.io/team1WebPage/opensource/migrate-from-jekyll/</loc>
   </url>
 </urlset>
