@@ -62,28 +62,28 @@ pluralizelisttitles = false
 
 
 [[menu.main]]
-    name       = "Hugo"
-    identifier = "menu.hugo"
-    url        = "/hugo"
-    weight     = 2
-
-[[menu.main]]
     name       = "Linux"
     identifier = "menu.linux"
     url        = "/linux"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Container"
+    identifier = "menu.container"
+    url        = "/container"
     weight     = 3
 
 [[menu.main]]
-    name       = "Docker"
-    identifier = "menu.docker"
-    url        = "/docker"
+    name       = "Git"
+    identifier = "menu.git"
+    url        = "/git"
     weight     = 4
 
 
 [[menu.main]]
-    name       = "Opensource"
-    identifier = "menu.opensource"
-    url        = "/opensource/"
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
     weight     = 5
 
 [[menu.main]]
@@ -135,7 +135,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["hugo", "linux", "docker", "opensource", "blog"]
+    mainSections = ["blog", "linux", "container", "git"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
