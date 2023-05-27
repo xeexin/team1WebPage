@@ -6,22 +6,22 @@
     <description>Recent content in Categories on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>programming</title>
+      <link>https://xeexin.github.io/team1WebPage/categories/programming/</link>
+      <pubDate>Thu, 25 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/categories/programming/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>lorem</title>
       <link>https://xeexin.github.io/team1WebPage/categories/lorem/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
       <guid>https://xeexin.github.io/team1WebPage/categories/lorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://xeexin.github.io/team1WebPage/categories/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/categories/programming/</guid>
       <description></description>
     </item>
     
