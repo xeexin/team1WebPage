@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Team 1</title>
+    <link>https://xeexin.github.io/team1WebPage/tags/hugo/</link>
+    <description>Recent content in hugo on Team 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO 정적 사이트 생성기</title>
+      <link>https://xeexin.github.io/team1WebPage/hugo/categories-post/</link>
+      <pubDate>Thu, 25 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/hugo/categories-post/</guid>
+      <description>HUGO, 대표적인 정적 사이트 생성기 HUGO는 GO 언어 기반으로 개발된 정적 사이트 생성기(SSG, Static Site Generator)입니다.
+다양한 정적 사이트 생성기가 있으나, 빠른 빌드와 문서화가 잘되어있는 장점이 있습니다.
+다시 말해 공식 문서를 기반으로 step by step 따라가면서 정적 웹사이트를 쉽게 제작할 수 있습니다.
+ Static Site Generator  Jekyll  점유율 1위 한글 레퍼런스 많음 루비 기반 단점: 윈도우 지원X, 빌드시간이 느림   Hexo  Jekyll 다음으로 인기 있음 한글 레퍼런스 많음 자바 스크립트 기반   Hugo  한글 레퍼런스가 많지 않다 : 오픈소스 참여 가능 Go lang 기반 빌드가 빠르다 문서화 : 깃헙, 공식문서가 Hexo보다 잘 구성되어 있다.</description>
+    </item>
+    
+    <item>
+      <title>Hugo 개발 절차</title>
+      <link>https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/</guid>
+      <description>Hugo, 개발 절차  Hugo 설치  apt install hugo 프로젝트 생성  hugo new site &amp;lt;site-name&amp;gt; 테마 사용  git clone &amp;lt;theme-url&amp;gt; 파일 만들기  hugo new &amp;lt;page-name&amp;gt; 테스트  hugo server --bind=0.0.0.0 빌드  hugo -t &amp;lt;테마이름&amp;gt;:hugo-developer-portfolio 퍼블리싱  cd &amp;lt;public 경로&amp;gt; git add . git commit -m &amp;#34;&amp;lt;commit-message&amp;gt;&amp;#34; git push </description>
+    </item>
+    
+    <item>
+      <title>Categories Post</title>
+      <link>https://xeexin.github.io/team1WebPage/docker/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/docker/categories-post/</guid>
+      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
+categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+    </item>
+    
+    <item>
+      <title>Categories Post</title>
+      <link>https://xeexin.github.io/team1WebPage/linux/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/linux/categories-post/</guid>
+      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
+categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+    </item>
+    
+    <item>
+      <title>Categories Post</title>
+      <link>https://xeexin.github.io/team1WebPage/opensource/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/opensource/categories-post/</guid>
+      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
+categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>https://xeexin.github.io/team1WebPage/docker/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/docker/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>https://xeexin.github.io/team1WebPage/linux/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/linux/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>https://xeexin.github.io/team1WebPage/opensource/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/opensource/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>https://xeexin.github.io/team1WebPage/linux/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/linux/hugo-is-for-lovers/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>https://xeexin.github.io/team1WebPage/opensource/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/opensource/hugo-is-for-lovers/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
