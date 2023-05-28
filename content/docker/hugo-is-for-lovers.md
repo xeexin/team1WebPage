@@ -3,7 +3,7 @@ title = "Docker : 가상화 플랫폼을 넘어서"
 date = "2023-05-28T21:29:20+02:00"
 tags = ["Docker"]
 categories = ["programming"]
-description = "정적 웹사이트 Hugo 소개"
+description = "Docker"
 banner = "img/banners/docker.jpg"
 authors = ["김원형"]
 +++
