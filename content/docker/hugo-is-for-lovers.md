@@ -1,81 +1,34 @@
 +++
-title = "Hugo is for lovers"
-date = "2015-08-03T13:39:46+02:00"
-tags = ["hugo"]
-categories = ["pseudo"]
-banner = "img/banners/banner-3.jpg"
-summary="This is the summary Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at [installing hugo](/overview/installing/)"
+title = "Docker : 가상화 플랫폼을 넘어서"
+date = "2023-05-28T21:29:20+02:00"
+tags = ["Docker"]
+categories = ["programming"]
+description = "정적 웹사이트 Hugo 소개"
+banner = "img/banners/docker.jpg"
+authors = ["김원형"]
 +++
 
-## Step 1. Install Hugo
+---
+# Docker 가상화 플랫폼
 
-Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
-appropriate version for your os and architecture.
+소프트웨어 개발과 배포를 Docker는 개발자들에게 많은 혜택을 제공하고 있습니다. 컨테이너 기반 가상화 기술을 통해 Docker는 애플리케이션을 격리된 환경에서 실행하고 관리하는 간편한 방법을 제공합니다.
 
-Save it somewhere specific as we will be using it in the next step.
+## 가상화 종류
 
-More complete instructions are available at [installing hugo](/overview/installing/)
+- 개발환경 가상화
+  - 개발 인터프리터
+  - 라이브러리
+- OS 수준 가상화:리눅스 컨테이너
+  - OS의 독립된 공간 격리
+  - isolation
+- 머신가상화
+  - 하이퍼바이저
 
-## Step 2. Build the Docs
+### Docker 이미지
 
-Hugo has its own example site which happens to also be the documentation site
-you are reading right now.
+Docker의 가장 중요한 개념 중 하나는 "이미지"입니다. 
+이미지는 애플리케이션을 실행 가능한 패키지로, 개발자는 애플리케이션을 이미지로 빌드하여 필요한 환경 설정을 할 수 있습니다.
 
-Follow the following steps:
-
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
-
-Corresponding pseudo commands:
-
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
-
-Once you've gotten here, follow along the rest of this page on your local build.
-
-## Step 3. Change the docs site
-
-Stop the Hugo process by hitting ctrl+c.
-
-Now we are going to run hugo again, but this time with hugo in watch mode.
-
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
-
-
-Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
-
-Content files are found in `docs/content/`. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-`docs/content/overview/quickstart.md`.
-
-Change and save this file.. Notice what happened in your terminal.
-
-    > Change detected, rebuilding site
-
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
-
-Refresh the browser and observe that the typo is now fixed.
-
-Notice how quick that was. Try to refresh the site before it's finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.
-
-## Step 4. Have fun
-
-The best way to learn something is to play with it.
+이미지를 사용하여 Docker는 "컨테이너"라는 실행 환경을 생성합니다. 
+컨테이너는 이미지의 인스턴스로, 격리된 환경에서 애플리케이션을 실행합니다. 또한, 호스트 시스템과 독립적으로 실행되므로 다양한 환경에서 일관되게 실행할 수 있어 더욱 효율적으로 만들어 줍니다.
+---
