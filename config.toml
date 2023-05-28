@@ -1,4 +1,4 @@
-#baseurl = "https://xeexin.github.io/team1WebPage/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://xeexin.github.io/team1WebPage/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "Team 1"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
