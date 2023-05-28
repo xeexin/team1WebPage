@@ -7,13 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Migrate from Jekyll</title>
+<title>Linux command</title>
 <meta name="author" content="DevCows" />
 
 
 
 
-<meta name="keywords" content="devcows, hugo, go, ipsum">
+<meta name="keywords" content="devcows, hugo, go, linux, command">
 
 
 <meta name="description" content="Site template made by Devcows using Hugo">
@@ -36,7 +36,7 @@
 
 
 
-<link href="/team1WebPage/css/custom.css?1685197039" rel="stylesheet">
+<link href="/team1WebPage/css/custom.css?1685289876" rel="stylesheet">
 
 
 
@@ -66,31 +66,31 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Team 1">
-<meta property="og:title" content="Migrate from Jekyll">
+<meta property="og:title" content="Linux command">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://xeexin.github.io/team1WebPage/opensource/migrate-from-jekyll/" />
+<meta property="og:url" content="https://xeexin.github.io/team1WebPage/linux/command/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
-<meta property="og:image" content="https://xeexin.github.io/team1WebPage/img/banners/banner-5.jpg">
+<meta property="og:image" content="https://xeexin.github.io/team1WebPage/img/banners/linux/banner-6.jpg">
 <meta property="og:image:type" content="image/jpg">
 
 
 
-  <meta property="og:image:width" content="1000">
-  <meta property="og:image:height" content="750">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="400">
 
 
-
+<meta property="og:updated_time" content="2023-05-23T10:25:30Z">
 
 
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Migrate from Jekyll">
+<meta name="twitter:title" content="Linux command">
 
-<meta name="twitter:image" content="https://xeexin.github.io/team1WebPage/img/banners/banner-5.jpg">
+<meta name="twitter:image" content="https://xeexin.github.io/team1WebPage/img/banners/linux/banner-6.jpg">
 
 <meta name="twitter:description" content="Site template made by Devcows using Hugo">
-<meta name="twitter:creator" content="@jekyllrb">
+
 
     
   </head>
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/team1WebPage/">
                     
-                      <img src="/team1WebPage/img/logo.png" alt="Migrate from Jekyll logo" class="hidden-xs hidden-sm" />
-                      <img src="/team1WebPage/img/logo-small.png" alt="Migrate from Jekyll logo" class="visible-xs visible-sm" />
+                      <img src="/team1WebPage/img/logo.png" alt="Linux command logo" class="hidden-xs hidden-sm" />
+                      <img src="/team1WebPage/img/logo-small.png" alt="Linux command logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Migrate from Jekyll - go to homepage</span>
+                    <span class="sr-only">Linux command - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -306,7 +306,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Migrate from Jekyll</h1>
+                <h1>Linux command</h1>
             </div>
         </div>
     </div>
@@ -323,141 +323,140 @@
                     <div class="col-md-9" id="blog-post">
 
                         
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                            
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              May 23, 2023
+                            
+                          </p>
+                        
 
                         <div id="post-content">
-                          <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
-<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p>
-<pre><code>▾ &lt;root&gt;/
-    ▾ images/
-        logo.png
-</code></pre>
-<p>should become</p>
-<pre><code>▾ &lt;root&gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-</code></pre>
-<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
-<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
-<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="/overview/configuration/">Hugo configuration documentation</a> for details.</p>
-<h2 id="set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code></h2>
-<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
-<ol>
-<li>
-<p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
-<pre><code> git submodule deinit _site
- git rm _site
- git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-</code></pre>
-</li>
-<li>
-<p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
-<pre><code> {
-     ..
-     &quot;publishdir&quot;: &quot;_site&quot;,
-     ..
- }
-</code></pre>
-</li>
-</ol>
-<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
-<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
-<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
-<h3 id="implementation">Implementation</h3>
-<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
-<p>Jekyll&rsquo;s plugin:</p>
-<pre><code>module Jekyll
-  class ImageTag &lt; Liquid::Tag
-    @url = nil
-    @caption = nil
-    @class = nil
-    @link = nil
-    // Patterns
-    IMAGE_URL_WITH_CLASS_AND_CAPTION =
-    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
-    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
-    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
-    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
-    def initialize(tag_name, markup, tokens)
-      super
-      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
-        @class   = $1
-        @url     = $3
-        @caption = $7
-        @link = $9
-      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
-        @class   = $1
-        @url     = $3
-        @caption = $7
-      elsif markup =~ IMAGE_URL_WITH_CAPTION
-        @url     = $1
-        @caption = $5
-      elsif markup =~ IMAGE_URL_WITH_CLASS
-        @class = $1
-        @url   = $3
-      elsif markup =~ IMAGE_URL
-        @url = $1
-      end
-    end
-    def render(context)
-      if @class
-        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
-      else
-        source = &quot;&lt;figure&gt;&quot;
-      end
-      if @link
-        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
-      end
-      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
-      if @link
-        source += &quot;&lt;/a&gt;&quot;
-      end
-      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
-      source += &quot;&lt;/figure&gt;&quot;
-      source
-    end
-  end
-end
-Liquid::Template.register_tag('image', Jekyll::ImageTag)
-</code></pre>
-<p>is written as this Hugo shortcode:</p>
-<pre><code>&lt;!-- image --&gt;
-&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
-    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
-        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
-    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
-    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
-    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
-        {{ .Get &quot;title&quot; }}{{ end }}
-        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
-        {{ .Get &quot;caption&quot; }}
-        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
-            {{ .Get &quot;attr&quot; }}
-        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
-        &lt;/p&gt; {{ end }}
-    &lt;/figcaption&gt;
-    {{ end }}
-&lt;/figure&gt;
-&lt;!-- image --&gt;
-</code></pre>
-<h3 id="usage">Usage</h3>
-<p>I simply changed:</p>
-<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
-</code></pre>
-<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
-<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
-</code></pre>
-<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
-<h2 id="finishing-touches">Finishing touches</h2>
-<h3 id="fix-content">Fix content</h3>
-<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
-<h3 id="clean-up">Clean up</h3>
-<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
-<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
-<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+                          <h1 id="linux-기본-명령어">Linux 기본 명령어</h1>
+<hr>
+<ul>
+<li><a href="#pwd">1. pwd</a></li>
+<li><a href="#mkdir">2. mkdir</a><br>
+<a href="#options">mkdir options</a></li>
+<li><a href="#ls">3. ls</a><br>
+<a href="#options-1">ls options</a></li>
+<li><a href="#cd">4. cd</a></li>
+<li><a href="#rm">5. rm</a><br>
+<a href="#options-2">rm options</a></li>
+<li><a href="#cp">6. cp</a></li>
+<li><a href="#mv">7. mv</a></li>
+</ul>
+<hr>
+<h2 id="pwd">pwd</h2>
+<hr>
+<p>pwd는 prind working directory의 약자로 현재 디렉토리의 경로를 보여주는 명령어이다. 현재 디렉토리가 /home/ubuntu라면 pwd를 입력하면 터미널 화면에 /home/ubuntu가 출력된다.</p>
+<h2 id="mkdir">mkdir</h2>
+<hr>
+<p>mkdir은 make directory의 약자로 새로운 디렉토리를 생성할 때 사용한다. 아래의 DIRECTORY의 위치에 생성하고자 하는 디렉토리를 입력한다. 공백을 두고 여러 개의 디렉토리를 입력으로 넣으면 디렉토리들을 여러 개 만들 수 있다.</p>
+<pre tabindex="0"><code>mkdir [OPTION]... DIRECTORY...
+</code></pre><p>e.g) mkdir  ./test1  test2  ../test3/test4  /home/test5<br>
+이 명령어는 현재 디렉토리에 test1, test2 디렉토리를, 이전 디렉토리에 있는 test3 디렉토리에 test4를, 홈디렉토리에 test5를 생성하라는 뜻이다. 옵션이 없을 때 이전 디렉토리에 test3가 존재하지 않을 경우, 오류가 발생한다.</p>
+<h3 id="options">options</h3>
+<blockquote>
+<p>-p: 상위 디렉토리도 함께 생성한다.<br>
+-m: 디렉토리를 생성할 때 해당 디렉토리에 대한 권한을 설정한다.<br>
+-v: 디렉토리를 생성할 때 생성할 디렉토리에 대한 메시지를 출력한다.</p>
+</blockquote>
+<p>위의 예시에서 -p를 포함하면, 즉 아래의 명령어를 입력하면 test3 디렉토리가 존재하지 않는 경우에 test4를 test3의 하위 디렉토리로 하여 test3와 함께 test4를 생성한다.</p>
+<pre tabindex="0"><code>mkdir -p ./test1 test2 ../test3/test4
+</code></pre><h2 id="ls">ls</h2>
+<hr>
+<p>ls는 list의 약자로 디렉토리 내에 있는 모든 파일과 디렉토리의 목록을 출력한다. 옵션이 없으면 숨김 파일은 출력하지 않는다.</p>
+<pre tabindex="0"><code>ls [OPTION]... [FILE]...
+</code></pre><p>[FILE]에는 default로 현재 디렉토리로 설정되어 있고 특정 디렉토리의 경로를 입력으로 넣으면 그 디렉토리에 있는 모든 파일과 디렉토리의 목록을 출력한다. 또한 mkdir과 같이 공백을 두고 여러 입력을 넣을 수 있다.<br>
+e.g) ls<br>
+현재 디렉토리에 있는 모든 파일과 디렉토리의 목록을 출력한다.<br>
+e.g) ls  ../<br>
+이전 디렉토리에 있는 모든 파일과 디렉토리의 목록을 출력한다.<br>
+e.g) ls  /home/ubuntu  ../<br>
+/home/ubuntu와 이전 디렉토리에 있는 모든 파일과 디렉토리의 목록을 출력한다.</p>
+<h3 id="options-1">options</h3>
+<blockquote>
+<p>-a: 숨겨진 파일과 디렉토리도 함께 출력한다.<br>
+-l: 파일 종류, 각 파일의 권한, 링크 수, 소유자, 그룹, 크기(바이트), 최종 수정 시간을 표시한다.<br>
+-S: 파일 크기 순으로 정렬해서 출력한다.<br>
+파일의 종류에는 파일, 디렉토리, 링크, 파이프가 있고 각각 -, d, l, p로 구분된다.
+e.g) ls -l</p>
+</blockquote>
+<p><code>drwxr----x 1 root 4096 May 23 22:25 example</code><br>
+<code>ls -l</code>를 실행하여 보이는 목록 중 example 디렉토리에 대한 정보이다. <code>drwxr----x</code>에서 d는 example이 디렉토리임을 나타내고 나머지 9자리는 이 디렉토리에 대한 권한 정보를 표시한 것이다. 권한에 대한 정보는 세자리씩 세 부분으로 나뉘어져 있는데 각각 소유자, 그룹, 사용자에 대한 권한을 나타낸다. 이 출력에서 알 수 있는 것은 이 디렉토리의 소유자는 root이고 root rwx(읽기, 쓰기, 실행)이 모두 허용된 것이고, 그룹은 r(읽기), 사용자는 x(실행)만이 허용되었다는 의미이다.<br>
+나머지 정보는 example 디렉토리에 있는 링크의 수는 1, 이 디렉토리의 소유자는 root, 크기는 4096이며 최종 수정 시간은 5월 23일 22시 25분임을 뜻한다.</p>
+<p><code>-rwx---w---x 1 ubuntu 1024 May 22 09:00 example.txt</code><br>
+<code>ls -l</code>를 실행하여 출력된 결과가 위와 같다면 example.txt는 파일이고 나머지 부분은 차례대로 권한, 링크의 수, 소유자, 파일의 크기, 최종 수정 일자를 의미한다.</p>
+<p>e.g) ls -a<br>
+현재 디렉토리에 있는 모든 파일과 디렉토리를 숨겨진 파일과 디렉토리까지 보여준다. 숨겨진 파일과 디렉토리는 .(점)으로 시작하는 파일 또는 디렉토리이다. 대표적으로 <code>git init</code> 후에 생성되는 .git 디렉토리가 숨겨진 디렉토리이다.<br>
+e.g) ls -al<br>
+옵션 l과 a를 함께 사용한 것이다. <code>ls -al</code>는 <code>ls -a -l</code>과 같고 이는 <code>ll</code>으로 줄여서 사용할 수 있다. 이는 리눅스에 기본적으로 등록되는 alias이다. <code>alias</code>는 긴 명령어를 별칭으로 대체하여 사용하게 하는 기능이다.</p>
+<h2 id="cd">cd</h2>
+<hr>
+<p>cd는 change directory의 약자로 실행시 다른 디렉토리로 이동한다.</p>
+<pre tabindex="0"><code>cd [OPTION] [dir]
+</code></pre><p>e.g) cd  ..<br>
+이전 디렉토리로 이동한다.
+e.g) cd  ~<br>
+&ldquo;~&ldquo;는 홈디렉토리를 의미한다. 따라서 홈디렉토리로 이동한다.<br>
+e.g) cd -<br>
+현재 디렉토리로 이동하기 전 가장 마지막으로 위치해 있던 디렉토리로 이동한다.</p>
+<h2 id="rm">rm</h2>
+<hr>
+<p>rm은 remove의 약자로 파일 또는 디렉토리를 삭제하는 명령어이다.</p>
+<pre tabindex="0"><code>rm [OPTION]... [FILE]...
+</code></pre><p><code>rm</code>도 <code>mkdir</code>과 마찬가지로 [FILE]에 여러 입력을 넣으면 여러 개의 파일 또는 디렉토리를 삭제할 수 있다. 다만, 특정 옵션이 없으면 디렉토리를 삭제할 수 없다.</p>
+<h3 id="options-2">options</h3>
+<blockquote>
+<p>-f: 파일 또는 디렉토리를 강제로 삭제한다.<br>
+-r: 하위 디렉토리를 포함해 모든 대상을 삭제한다.</p>
+</blockquote>
+<p>e.g) rm -rf ./test<br>
+test가 비어있든 비어있지 않든 현재 디렉토리에 존재하는 test 디렉토리를 강제로 삭제한다. test가 파일이라면 현재 디렉토리에 있는 test 파일을 삭제한다.</p>
+<h2 id="cp">cp</h2>
+<hr>
+<p>copy의 약자로 어떤 파일이나 디렉토리를 특정 디렉토리로 복사할 때 사용한다.</p>
+<pre tabindex="0"><code>cp [OPTION]... SOURCE... DIRECTORY
+</code></pre><p>SOURCE에 복사할 파일 또는 디렉토리를 여러 개를 입력으로 넣으면 DIRECTORY에 입력으로 넣은 디렉토리로 여러개가 복사된다.<br>
+e.g) cp  ../test/test.txt  ../example/  .<br>
+이전 디렉토리에 있는 test 디렉토리에 존재하는 test.txt와 이전 디렉토리에 존재하는 example 디렉토리를 현재 디렉토리에 복사한다.</p>
+<h2 id="mv">mv</h2>
+<hr>
+<p>move의 약자로 파일 또는 디렉토리를 특정 디렉토리로 이동시킬 때 사용한다.</p>
+<pre tabindex="0"><code>mv [OPTION]... SOURCE... DIRECTORY
+</code></pre><p>SOURCE에 입력으로 넣은 파일 또는 디렉토리를 DIRECTORY에 입력으로 넣은 디렉토리로 이동시킨다. SOURCE에 공백을 두고 여러 입력을 넣을 수 있다. 한편 이 명령어를 이용해 파일 또는 디렉토리의 이름을 변경할 수 있다. 이름을 변경할 때에는 SOURCE에 입력을 여러 개를 넣으면 오류가 발생한다.<br>
+e.g) mv  test  ./test1<br>
+test를 test1으로 이름을 변경한다.<br>
+e.g) mv  test  /home/ubuntu/test2  ../<br>
+현재 디렉토리에 있는 test와 /home/ubuntu에 존재하는 test2를 이전 디렉토리로 옮긴다.</p>
 
                         </div>
                         
@@ -535,19 +534,19 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             
             
             <li>
-                <a href="/team1WebPage/categories/lorem">LOREM (6)</a>
+                <a href="/team1WebPage/categories/lorem">LOREM (2)</a>
             </li>
             
             <li>
-                <a href="/team1WebPage/categories/programming">PROGRAMMING (11)</a>
+                <a href="/team1WebPage/categories/programming">PROGRAMMING (9)</a>
             </li>
             
             <li>
-                <a href="/team1WebPage/categories/pseudo">PSEUDO (6)</a>
+                <a href="/team1WebPage/categories/pseudo">PSEUDO (2)</a>
             </li>
             
             <li>
-                <a href="/team1WebPage/categories/starting">STARTING (3)</a>
+                <a href="/team1WebPage/categories/starting">STARTING (1)</a>
             </li>
             
         </ul>
@@ -573,6 +572,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             
             
             <li >
+                <a href="/team1WebPage/tags/command"><i class="fas fa-tags"></i> command</a>
+            </li>
+            
+            <li >
                 <a href="/team1WebPage/tags/go"><i class="fas fa-tags"></i> go</a>
             </li>
             
@@ -586,6 +589,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             
             <li >
                 <a href="/team1WebPage/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
+            </li>
+            
+            <li >
+                <a href="/team1WebPage/tags/linux"><i class="fas fa-tags"></i> linux</a>
             </li>
             
             <li >
@@ -645,6 +652,32 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
+                        <a href="https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/">
+                          
+                            <img src="/team1WebPage/img/banners/opensource-banner-2.png" class="img-responsive" alt="오픈소스 라이선스의 종류">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/">오픈소스 라이선스의 종류</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://xeexin.github.io/team1WebPage/opensource/categories-post/">
+                          
+                            <img src="/team1WebPage/img/banners/opensource-banner-1.jpg" class="img-responsive" alt="오픈소스에 대하여">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://xeexin.github.io/team1WebPage/opensource/categories-post/">오픈소스에 대하여</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
                         <a href="https://xeexin.github.io/team1WebPage/hugo/categories-post/">
                           
                             <img src="/team1WebPage/img/banners/hugo-banner-1.jpg" class="img-responsive" alt="HUGO 정적 사이트 생성기">
@@ -653,32 +686,6 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
                     </div>
                     <div class="name same-height-always">
                         <h5><a href="https://xeexin.github.io/team1WebPage/hugo/categories-post/">HUGO 정적 사이트 생성기</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/">
-                          
-                            <img src="/team1WebPage/img/banners/hugo-banner-2.jpeg" class="img-responsive" alt="Hugo 개발 절차">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/">Hugo 개발 절차</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://xeexin.github.io/team1WebPage/docker/categories-post/">
-                          
-                            <img src="/team1WebPage/img/banners/banner-4.jpg" class="img-responsive" alt="Categories Post">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://xeexin.github.io/team1WebPage/docker/categories-post/">Categories Post</a></h5>
                     </div>
                 </div>
                 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>안정규 on Team 1</title>
+    <link>https://xeexin.github.io/team1WebPage/authors/%EC%95%88%EC%A0%95%EA%B7%9C/</link>
+    <description>Recent content in 안정규 on Team 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 13:50:46 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/authors/%EC%95%88%EC%A0%95%EA%B7%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>오픈소스 라이선스의 종류</title>
+      <link>https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 May 2023 13:50:46 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/</guid>
+      <description>GNU GPL(General Public License)  수정과 배포 모두 제한이 없으나 원본 프로그램이 GPL로 배포되었다면 수정된 프로그램 또한 GPL로 배포되어야 합니다. 가장 강력한 copyleft   1. GPL 프로그램을 어떠한 목적으로든지 사용할 수 있다.
+ 2. GPL 프로그램의 소스 코드를 용도에 따라 변경 할 수 있다. (개작 가능)
+ 3. GPL 프로그램을 판매/배포시 소스 코드도 요청하면 제공하여야 한다. (원본 배포 의무)
+ 4. 변경된 컴퓨터 프로그램 역시 프로그램의 소스 코드를 요청시 제공해야 한다.</description>
+    </item>
+    
+    <item>
+      <title>오픈소스에 대하여</title>
+      <link>https://xeexin.github.io/team1WebPage/opensource/categories-post/</link>
+      <pubDate>Sat, 27 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/opensource/categories-post/</guid>
+      <description>오픈소스란? 오픈소스 소프트웨어(OSS) 란 소스코드를 공개하여 누구나 수정하고 사용할 수 있는 라이선스를 가진 소프트웨어를 말하며,
+오픈소스 나 공개 소프트웨어 등으로도 불립니다.
+주로 GitHub를 통해 소스코드를 공개하며, 최근에 일론 머스크가 인수한 트위터가 자사의 추천 알고리즘과 트위터 내부 소스코드 일부를 GitHub에 공개한 것이 화제가 되기도 했습니다.
+오픈소스의 역사 소프트웨어 산업의 태동기 시절, 영리 소프트웨어 기업들은 소스코드를 공개하는 것을 꺼렸습니다.
+소스코드를 복제해가면 누구나 해당 소프트웨어를 사용할 수 있었기에, 기업들은 특허와 지적재산권 등으로 소스코드를 철저하게 보호했습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

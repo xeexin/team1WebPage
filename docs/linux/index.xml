@@ -6,65 +6,31 @@
     <description>Recent content in Linux on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 10:53:57 +0000</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categories Post</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>File System</title>
+      <link>https://xeexin.github.io/team1WebPage/linux/filesystem/</link>
+      <pubDate>Tue, 23 May 2023 10:53:57 +0000</pubDate>
       
-      <guid>https://xeexin.github.io/team1WebPage/linux/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
+      <guid>https://xeexin.github.io/team1WebPage/linux/filesystem/</guid>
+      <description>Linux 파일 시스템 리눅스 파일 시스템 구조  리눅스 시스템의 디렉토리는 전체적으로 역 트리 구조로 이루어져 있다
+/  최상위 디렉토리인 루트 디렉토리를 의미한다. 루트 디렉토리는 리눅스의 모든 디렉토리들의 시작점이다. 모든 디렉토리를 절대경로로 표기할 때에 이 디렉토리로부터 시작해야 한다.
+/bin  mv, ls, rm과 같은 기본적인 명령어가 저장되어 있는 디렉토리이다.
+/boot  리눅스 부트로더(Boot Loader)가 존재하는 디렉토리이다.
+/dev  시스템 디바이스 파일이 저장되어있는 디렉토리이다. 하드 디스크나 ROM에 관한 장치파일이 존재한다.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Linux command</title>
+      <link>https://xeexin.github.io/team1WebPage/linux/command/</link>
+      <pubDate>Tue, 23 May 2023 10:25:30 +0000</pubDate>
       
-      <guid>https://xeexin.github.io/team1WebPage/linux/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/linux/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/linux/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/linux/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://xeexin.github.io/team1WebPage/linux/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/linux/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://xeexin.github.io/team1WebPage/linux/command/</guid>
+      <description>Linux 기본 명령어   1. pwd 2. mkdir
+mkdir options 3. ls
+ls options 4. cd 5. rm
+rm options 6. cp 7. mv   pwd  pwd는 prind working directory의 약자로 현재 디렉토리의 경로를 보여주는 명령어이다. 현재 디렉토리가 /home/ubuntu라면 pwd를 입력하면 터미널 화면에 /home/ubuntu가 출력된다.
+mkdir  mkdir은 make directory의 약자로 새로운 디렉토리를 생성할 때 사용한다. 아래의 DIRECTORY의 위치에 생성하고자 하는 디렉토리를 입력한다. 공백을 두고 여러 개의 디렉토리를 입력으로 넣으면 디렉토리들을 여러 개 만들 수 있다.</description>
     </item>
     
   </channel>
