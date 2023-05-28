@@ -4,7 +4,6 @@ date: "2023-05-23T10:25:30Z"
 tags: ["linux", "command"]
 categories: ["programming"]
 banner: "img/banners/linux/banner-6.jpg"
-draft: true
 ---
 
 # Linux 기본 명령어
