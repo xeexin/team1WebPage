@@ -1,19 +1,23 @@
 +++
-title = "Categories Post"
-date = "2021-08-01T21:29:20+02:00"
-tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming","lorem","pseudo"]
-banner = "img/banners/banner-4.jpg"
-authors = ["John Doe"]
+title = ""
+date = "2023-05-28T21:29:20+02:00"
+tags = ["Docker : 가상화 플랫폼을 넘어"]
+categories = ["programming"]
+banner = "img/banners/docker.jpg"
+authors = ["김원형"]
 +++
 
-I'm a post with multiple categories in the frontmatter:
+# 컨테이너 기반의 가상화 플랫폼 Docker
 
-    categories = ["programming","lorem","pseudo"]
+Docker는 현대의 개발자들에게 많은 혜택을 제공하고 있습니다. 
+컨테이너 기반 가상화 기술을 통해 Docker는 애플리케이션을 격리된 환경에서 실행하고 관리하는 간편한 방법을 제공합니다.
 
+---
+# Docker 핵심
+Docker의 가장 중요한 개념 중 하나는 "이미지"입니다. 
+이미지는 애플리케이션을 실행 가능한 패키지의 개념이며, 개발자는 애플리케이션을 이미지로 빌드하여 필요한 환경 설정할 수 있습니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
-
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
-
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+이미지를 사용하여 Docker는 "컨테이너"라는 실행 환경을 생성합니다. 
+컨테이너는 이미지의 인스턴스로, 격리된 환경에서 애플리케이션을 실행합니다.
+컨테이너는 호스트 시스템과 독립적으로 실행되므로 애플리케이션을 다양한 환경에서 실행할 수 있습니다. 또한, 컨테이너는 사용하기에 간편하여 개발 및 테스트 프로세스를 더욱 효율적으로 만들어 줍니다.
+---
