@@ -4,6 +4,7 @@ date: 2023-05-23T10:53:57Z
 banner: "img/banners/linux/banner-7.jpg"
 categories: ["programming"]
 tags: ["linux"]
+draft: true
 ---
 
 # Linux 파일 시스템
