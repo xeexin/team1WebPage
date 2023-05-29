@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Team 1</title>
+    <title>HUGO on Team 1</title>
     <link>https://xeexin.github.io/team1WebPage/tags/hugo/</link>
-    <description>Recent content in hugo on Team 1</description>
+    <description>Recent content in HUGO on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -26,35 +26,6 @@
       
       <guid>https://xeexin.github.io/team1WebPage/hugo/creating-a-new-theme/</guid>
       <description>Hugo, 개발 절차  Hugo 설치  apt install hugo 프로젝트 생성  hugo new site &amp;lt;site-name&amp;gt; 테마 사용  git clone &amp;lt;theme-url&amp;gt; 파일 만들기  hugo new &amp;lt;page-name&amp;gt; 테스트  hugo server --bind=0.0.0.0 빌드  hugo -t &amp;lt;테마이름&amp;gt;:hugo-developer-portfolio 퍼블리싱  cd &amp;lt;public 경로&amp;gt; git add . git commit -m &amp;#34;&amp;lt;commit-message&amp;gt;&amp;#34; git push </description>
-    </item>
-    
-    <item>
-      <title>Categories Post</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
     </item>
     
   </channel>

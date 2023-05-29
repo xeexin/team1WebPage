@@ -6,7 +6,27 @@
     <description>Recent content on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 13:50:46 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker : 가상화 플랫폼을 넘어서</title>
+      <link>https://xeexin.github.io/team1WebPage/docker/docker1/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/docker/docker1/</guid>
+      <description>Docker 가상화 플랫폼 소프트웨어 개발과 배포를 Docker는 개발자들에게 많은 혜택을 제공하고 있습니다. 컨테이너 기반 가상화 기술을 통해 Docker는 애플리케이션을 격리된 환경에서 실행하고 관리하는 간편한 방법을 제공합니다.
+가상화 종류  개발환경 가상화  개발 인터프리터 라이브러리   OS 수준 가상화:리눅스 컨테이너  OS의 독립된 공간 격리 isolation   머신가상화  하이퍼바이저    Docker 이미지 Docker의 가장 중요한 개념 중 하나는 &amp;ldquo;이미지&amp;quot;입니다. 이미지는 애플리케이션을 실행 가능한 패키지로, 개발자는 애플리케이션을 이미지로 빌드하여 필요한 환경 설정을 할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Docker의 다양한 이용</title>
+      <link>https://xeexin.github.io/team1WebPage/docker/docker2/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/docker/docker2/</guid>
+      <description>Docker의 다양한 이용 사례  애플리케이션 개발 및 테스트 애플리케이션 배포 개발 및 테스트 환경 제공    애플리케이션 개발 및 테스트 Docker는 개발자들이 애플리케이션을 격리된 환경에서 실행하고 테스트하는 데에 매우 유용합니다. 개발 환경의 일관성을 유지하고 충돌을 방지하여 개발자들이 신속하게 개발 및 테스트를 진행할 수 있습니다.
+애플리케이션 배포 Docker는 애플리케이션을 컨테이너로 패키징하여 배포하는 데 사용됩니다. 컨테이너화된 애플리케이션은 환경에 구애받지 않고 일관되게 실행되며, 클라우드, 가상화된 환경 등 어디에서나 배포할 수 있습니다.</description>
+    </item>
+    
     <item>
       <title>오픈소스 라이선스의 종류</title>
       <link>https://xeexin.github.io/team1WebPage/opensource/creating-a-new-theme/</link>
@@ -80,55 +100,6 @@ mkdir  mkdir은 make directory의 약자로 새로운 디렉토리를 생성할 
     </item>
     
     <item>
-      <title>Categories Post</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://xeexin.github.io/team1WebPage/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://xeexin.github.io/team1WebPage/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,17 +117,6 @@ Please feel free to contact us, our customer service center is working for you 2
       <guid>https://xeexin.github.io/team1WebPage/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://xeexin.github.io/team1WebPage/docker/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/docker/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
   </channel>

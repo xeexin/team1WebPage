@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on Team 1</title>
-    <link>https://xeexin.github.io/team1WebPage/docker/</link>
-    <description>Recent content in Docker on Team 1</description>
+    <title>김원형 on Team 1</title>
+    <link>https://xeexin.github.io/team1WebPage/authors/%EA%B9%80%EC%9B%90%ED%98%95/</link>
+    <description>Recent content in 김원형 on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/authors/%EA%B9%80%EC%9B%90%ED%98%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker : 가상화 플랫폼을 넘어서</title>
       <link>https://xeexin.github.io/team1WebPage/docker/docker1/</link>

@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Team 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 13:50:46 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://xeexin.github.io/team1WebPage/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://xeexin.github.io/team1WebPage/tags/docker/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://xeexin.github.io/team1WebPage/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>theme</title>
       <link>https://xeexin.github.io/team1WebPage/tags/theme/</link>
@@ -26,7 +35,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>HUGO</title>
       <link>https://xeexin.github.io/team1WebPage/tags/hugo/</link>
       <pubDate>Thu, 25 May 2023 21:29:20 +0200</pubDate>
       
@@ -49,33 +58,6 @@
       <pubDate>Tue, 23 May 2023 10:25:30 +0000</pubDate>
       
       <guid>https://xeexin.github.io/team1WebPage/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://xeexin.github.io/team1WebPage/tags/golang/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://xeexin.github.io/team1WebPage/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ipsum</title>
-      <link>https://xeexin.github.io/team1WebPage/tags/ipsum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://xeexin.github.io/team1WebPage/tags/ipsum/</guid>
       <description></description>
     </item>
     
